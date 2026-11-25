@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sign in to your International Herb Africa account.">
+  <title>Login | International Herb Africa</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><img src="assets/iha-logo.png" alt="International Herb Africa logo"><span>INTERNATIONAL<br>HERB AFRICA</span></a>
+  <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+  <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="marketplace.html">Marketplace</a><a href="vendors.html">Vendors</a><a href="drivers.html">Drivers</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="addressbook.html">Address Book</a><a href="login.html">Login</a><a href="register.html">Register</a>
+  </nav>
+</header>
+<main class="auth-page"><div class="auth-layout">
+  <aside class="auth-showcase"><img src="assets/iha-logo.png" alt="International Herb Africa gold emblem" class="auth-showcase-logo"><p class="auth-eyebrow">WELCOME BACK</p><h1>Your marketplace, one secure account.</h1><p>Sign in to continue exploring the International Herb Africa marketplace experience.</p><div class="auth-feature">Customer · Vendor · Delivery partner</div></aside>
+  <section class="auth-panel" aria-labelledby="login-heading"><div class="auth-card"><p class="auth-eyebrow">ACCOUNT ACCESS</p><h2 id="login-heading">Sign in</h2><p class="auth-intro">New to IHA? <a href="register.html">Create an account</a></p>
+  <form class="auth-form" data-auth-demo="login">
+    <label for="login-email">Email address</label><input id="login-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+    <div class="auth-label-row"><label for="login-password">Password</label><a class="auth-small-link" href="forgot-password.html">Forgot password?</a></div>
+    <div class="password-field"><input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required><button type="button" class="password-toggle" data-toggle-password="login-password" aria-label="Show password" aria-pressed="false">Show</button></div>
+    <button class="btn auth-submit" type="submit">Sign in</button><p class="feedback" role="status" aria-live="polite"></p>
+  </form><p class="auth-footnote">Demo interface only. Authentication will be activated after the secure Django backend is ready.</p></div></section>
+</div></main>
+<footer class="site-footer"><div class="footer-brand"><img src="assets/iha-logo.png" alt="IHA logo"><p>International Herb Africa — premium marketplace experience.</p></div><div class="footer-contact"><h3>Contact IHA</h3><a href="mailto:info@internationalherbafrica.co.za">info@internationalherbafrica.co.za</a><a href="contact.html">Contact page</a><a href="splash.html">Welcome screen</a></div><p class="copyright">© <span id="currentYear">2026</span> International Herb Africa. Prototype only — no accounts or payments are active.</p></footer>
+</body>
+</html>
